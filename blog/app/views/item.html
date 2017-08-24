@@ -1,0 +1,8 @@
+<input type="button" ng-repeat="json in arr" value="{{json.name}}" ng-click="fn($index)" class="{{now==$index?'active':''}}">
+<div ng-repeat="json in arr" ng-show="now==$index">
+	<ul>
+		<li ng-repeat="news in json.newslist">{{$index+1}}:
+			<a href="{{news.href}}" target="_blink">{{news.title}}</a>
+		</li>
+	</ul>
+</div>

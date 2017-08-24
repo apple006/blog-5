@@ -1,0 +1,66 @@
+<div class="body">
+	<div class="container-fluid">
+		<div class="row list_mg">
+
+			<div class="col-md-9 col-sm-12 col-lg-9  mdl-grid">
+				<section class="section-center box-shadow" ng-repeat="json in list.arr">
+				<div class="mdl-card__title mdl-card--border mdl-card--expand">
+					<h2 class="mdl-card__title-text">
+							<a href="{{json.newslist[$index].href}}">{{json.name}} </a>
+					</h2>
+				</div>
+				<div class="mdl-card__supporting-text">
+					<h6>Posted by : <b>张宁</b>&nbsp;<span>Aug. 16, 2017, 10:56 p.m.</span></h6>
+					<p>{{list.data.intro}}</p>
+					<div>
+						<ul class="list-inline tags">
+							Tags:
+							<li>
+								<a href="#">webviewnative</a>
+							</li>
+							<li>
+								<a href="#">native</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="mdl-card__actions mdl-card--border">
+					<a ui-sref='detail({index:$index})'>点击阅读</a>
+					<span class="glyphicon glyphicon-menu-right
+" aria-hidden="true"></span>
+				</div>
+			</section>
+				
+				
+			</div>
+
+			
+
+			<div class="col-md-3 col-sm-12 col-lg-3">
+				<section class="section-right box-shadow">
+					<div class="list-group">
+						<a href="#" class="list-group-item">
+							文章列表1111
+						</a>
+						<a ui-sref="item({a:10,b:20})" class="list-group-item active">Dapibus ac facilisis in</a>
+						<a href="#/second/200/300" ui-sref-active="active" class="list-group-item">second</a>
+						<a ui-sref="third({a:null,b:null})" class="list-group-item" ui-sref-active="active">third</a>
+						<a href="#" class="list-group-item" ui-sref-active="active">Vestibulum at eros</a>
+					</div>
+				</section>
+			</div>
+
+			<!--一些数据-->
+			<!--<input type="button" ng-repeat="json in list.arr" value="{{json.name}}" ng-click="list.fn($index)" class="{{list.now==$index?'active':''}}">
+			<div ng-repeat="json in list.arr" ng-show="list.now==$index">
+				<ul>
+					<li ng-repeat="news in json.newslist">{{$index+1}}:
+						<a href="{{news.href}}" target="_blink">{{news.title}}</a>
+					</li>
+				</ul>
+			</div>-->
+
+		</div>
+		<!--<div ui-view></div>-->
+	</div>
+</div>

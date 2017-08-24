@@ -1,0 +1,372 @@
+.browsehappy {
+	margin: 0.2em 0;
+	background: #ccc;
+	color: #000;
+	padding: 0.2em 0;
+}
+
+li {
+	list-style: none;
+}
+
+body {
+	padding: 0;
+}
+
+
+/* Everything but the jumbotron gets side spacing for mobile first views */
+
+.header,
+.marketing,
+.footer {
+	/*padding-left: 15px;
+  padding-right: 15px;*/
+}
+
+
+/* Custom page header */
+
+.header {
+	/*border-bottom: 1px solid #e5e5e5;
+  margin-bottom: 10px;*/
+}
+
+
+/* Make the masthead heading the same height as the navigation */
+
+.header h3 {
+	margin-top: 0;
+	margin-bottom: 0;
+	line-height: 40px;
+	padding-bottom: 19px;
+}
+
+
+/* Custom page footer */
+
+.footer {
+	padding-top: 19px;
+	color: #777;
+	border-top: 1px solid #e5e5e5;
+}
+
+.container-narrow>hr {
+	margin: 30px 0;
+}
+
+
+/* Main marketing message and sign up button */
+
+.jumbotron {
+	text-align: center;
+	border-bottom: 1px solid #e5e5e5;
+}
+
+.jumbotron .btn {
+	font-size: 21px;
+	padding: 14px 24px;
+}
+
+
+/* Supporting marketing content */
+
+.marketing {
+	margin: 40px 0;
+}
+
+.marketing p+h4 {
+	margin-top: 28px;
+}
+
+
+/* Responsive: Portrait tablets and up */
+
+@media screen and (min-width: 768px) {
+	.container {
+		max-width: 730px;
+	}
+	/* Remove the padding we set earlier */
+	.header,
+	.marketing,
+	.footer {
+		padding-left: 0;
+		padding-right: 0;
+	}
+	/* Space out the masthead */
+	/* Remove the bottom border on the jumbotron for visual effect */
+	.jumbotron {
+		border-bottom: 0;
+	}
+}
+
+.navbar {
+	margin-bottom: 0;
+	border-radius: 0;
+	background-color: #5e6772;
+}
+
+.container-fluid {
+	padding-left: 0;
+	padding-right: 0;
+}
+
+
+/*bg-intro -intro----------------------------------------------------*/
+
+.bg {
+	background: url(../images/bg.jpg) no-repeat center center;
+	width: 100%;
+	height: 400px;
+	background-size: cover;
+	text-align: center;
+}
+
+.bg h1 {
+	margin-top: 0;
+	padding-top: 100px;
+	color: #FFFFFF;
+	line-height: 200%;
+}
+
+
+/*bg-intro -end-=----------------------------------------------------*/
+
+
+/*main-intro*/
+
+.pd36 {
+	padding: 36px;
+}
+
+.main a {
+	color: #5090CC;
+	text-decoration: none;
+}
+
+.literature {
+	background-color: #EEEEEE;
+	padding-left: 0;
+	padding-right: 0;
+	text-align: center;
+	line-height: 280%;
+}
+
+.literature li {
+	color: #5090D6;
+}
+
+.main h2 {
+	font-size: 1.5em;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	margin: 0;
+	background-color: #FFFFFF;
+}
+
+.main h3 {
+	font-size: 1.2em;
+	padding-bottom: 5px;
+	color: #5e6772;
+}
+
+.main ul {
+	padding-left: 0;
+}
+
+.code {
+	background-color: #FAF9F9;
+}
+
+
+/*main-intro -end-----------------------------------*/
+
+
+/*follow  me -end-----------------------------------*/
+
+@font-face {
+	font-family: 'iconfont';
+	/* project id 392064 */
+	src: url('//at.alicdn.com/t/font_392064_nyn2x7zutkfhia4i.eot');
+	src: url('//at.alicdn.com/t/font_392064_nyn2x7zutkfhia4i.eot?#iefix') format('embedded-opentype'), url('//at.alicdn.com/t/font_392064_nyn2x7zutkfhia4i.woff') format('woff'), url('//at.alicdn.com/t/font_392064_nyn2x7zutkfhia4i.ttf') format('truetype'), url('//at.alicdn.com/t/font_392064_nyn2x7zutkfhia4i.svg#iconfont') format('svg');
+}
+
+.iconfont {
+	font-family: "iconfont" !important;
+	font-size: 16px;
+	font-style: normal;
+	-webkit-font-smoothing: antialiased;
+	-webkit-text-stroke-width: 0.2px;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+li .btn {
+	width: 15rem;
+}
+
+.align-self-center {}
+
+#contact {
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+
+/*artical_list------------------------------------------------*/
+
+.body {
+	background: url(../images/bg_body.jpg);
+	background-position-x: initial;
+	background-position-y: initial;
+	background-size: initial;
+	background-repeat-x: initial;
+	background-repeat-y: initial;
+	background-attachment: initial;
+	background-origin: initial;
+	background-clip: initial;
+	background-color: initial;
+}
+
+
+/*left_list*/
+
+.list_mg{
+	margin: 0 auto;
+	margin-top: 15px;
+}
+
+.section-center {
+	width: 80%;
+	background-color: #fff;
+	position: relative;
+	margin: 0 auto;
+	margin-bottom: 48px;
+}
+.section-right{
+	margin: 0 auto;
+	background-color: #fff;
+}
+
+.mdl-grid{
+	
+	align-items: stretch;
+}
+/*阴影*/
+
+.box-shadow {
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+
+.box-shadow:hover {
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+/*阴影结束*/
+
+
+.mdl-card__title,.mdl-card--border{
+	border-bottom: 1px solid rgba(0,0,0,.1);
+}
+
+.mdl-card--expand{
+	-webkit-box-flex: 1;
+    -webkit-flex-grow: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+}
+
+.mdl-card__title{
+	-webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    color: #000;
+    display: block;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: stretch;
+    -webkit-justify-content: stretch;
+    -ms-flex-pack: stretch;
+    justify-content: stretch;
+    /* line-height: normal; */
+    padding: 16px;
+    -webkit-perspective-origin: 165px 56px;
+    perspective-origin: 165px 56px;
+    -webkit-transform-origin: 165px 56px;
+    -ms-transform-origin: 165px 56px;
+    transform-origin: 165px 56px;
+    box-sizing: border-box;
+}
+
+.mdl-card__title-text{
+    -webkit-align-self: flex-end;
+    -ms-flex-item-align: end;
+    align-self: flex-end;
+    color: inherit;
+    display: block;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    font-size: 24px;
+    font-weight: 300;
+    line-height: normal;
+    overflow: hidden;
+    -webkit-transform-origin: 149px 48px;
+    -ms-transform-origin: 149px 48px;
+    transform-origin: 149px 48px;
+    margin: 0;
+}
+
+.mdl-grid a{
+	color: #1c2022;
+}
+
+
+.mdl-card__supporting-text{
+	color: rgba(0,0,0,0.54);
+    font-size: 13px;
+    line-height: 18px;
+    overflow: hidden;
+    padding: 16px;
+    width: 90%;
+}
+
+.mdl-card__supporting-text p{
+	color: #282e31;
+}
+
+/*h6{
+	    font-size: 16px;
+    letter-spacing: .04em;
+    rgba(0,0,0,.54);
+}*/
+.list-inline{
+	padding-left: 0;
+    list-style: none;
+}
+
+.list-inline a{
+	text-decoration: underline;
+}
+
+.mdl-card__actions.mdl-card--border{
+	border-top: 1px solid rgba(0,0,0,.1);
+}
+
+.mdl-card__actions{
+	font-size: 16px;
+    line-height: normal;
+    width: 100%;
+    background-color: transparent;
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+.mdl-card__actions a{
+	color: rgb(33,150,243);
+}
+/*artical_list------------------------------------------------*/
